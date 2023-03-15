@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="Formulario.jfif">   
+    <link rel="stylesheet" type="text/css" href="Formulario.css">
+</head>
+<body>
+<fieldset class="div1">
+        <legend>Dados Pessoais</legend>
+        Nome:<input type="text" class="caixa_larga" id="nome"> <br> <br>
+        Endereço: <input type="text" class="caixa_larga" id="endereço"> <br> <br>
+        Cidade: <input type="text" class="caixa_larga" id="cidade"> <br> <br>
+        Estado: <select id="Estado" class="estado">
+            <option>São Paulo</option>
+            <option>Paraná</option>
+            <option>Santa Catarina</option>
+            </select>
+</fieldset>
+<br>
+<br>
+<fieldset class="div1">
+        <legend>Dados Profissionais</legend>
+    <legend>Natureza do Cargo</legend>
+    <input type="radio" class="cargos" id="gerencia" name="cargos"> Gerencia &nbsp; &nbsp;
+    <input type="radio" class="cargos" id="gerencia" name="cargos"> Financeiro &nbsp; &nbsp;
+    <input type="radio" class="cargos" id="gerencia" name="cargos"> Recepção &nbsp; &nbsp;
+    <input type="radio" class="cargos" id="gerencia" name="cargos"> Administrativo &nbsp; &nbsp;
+    <input type="radio" class="cargos" id="gerencia" name="cargos"> Jurídico &nbsp; &nbsp;
+    <br><br>
+    <legend>Área de interesse</legend>
+    <input type="checkbox" class="areas" id="computacao"> Computação &nbsp; &nbsp;
+    <input type="checkbox" class="areas" id="computacao"> Biologia &nbsp; &nbsp;
+    <input type="checkbox" class="areas" id="computacao"> Meio Ambiente &nbsp; &nbsp;
+    <input type="checkbox" class="areas" id="computacao"> Engenharia &nbsp; &nbsp;
+    <input type="checkbox" class="areas" id="computacao"> História &nbsp; &nbsp;
+    <br><br> Mini-currículo:<br><textarea  class="texto" id="curriculo"></textarea>
+</fieldset>
+<br><br>
+<div class="div2">
+<button class="botao1">Enviar</button>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="botao2">Limpar</button>
+</div>
+</body>
+</html>
